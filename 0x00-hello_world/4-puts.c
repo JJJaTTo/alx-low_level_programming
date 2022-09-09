@@ -1,7 +1,8 @@
 #include<stdio.h>
 /**
- * puts
- * print s on stdout put
+ * puts - a short description
+ * puts print s on stdout put
+ * return; since main is void retun zero
  */
 int main(void) /*learning puts*/
 {
