@@ -1,5 +1,10 @@
 #include<stdio.h>
-int main(void) {
+/**
+ * puts
+ * print s on stdout put
+ */
+int main(void) /*learning puts*/
+{
 puts("\"Programming is like building a multilingual puzzle");
-return(0);
+return (0);
 }
