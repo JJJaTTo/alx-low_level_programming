@@ -1,7 +1,8 @@
 #include<stdio.h>
-int main(0)
+#include<string.h>
+int main(void)
 {
-	mystr = "Programming is like building a multilingual puzzle";
-		puts(mystr);
+	puts(My);
+	std:string My = "Programming is like building a multilingual puzzle";
 		return (0);
 }
