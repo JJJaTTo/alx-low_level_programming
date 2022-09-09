@@ -1,10 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * puts - a short description
- * puts print s on stdout put
- * return; since main is void retun zero
+ * puts - short note on puts
+ * main - entry void
+ * return:0 zero 
  */
-int main(void) /*learning puts*/
+int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
