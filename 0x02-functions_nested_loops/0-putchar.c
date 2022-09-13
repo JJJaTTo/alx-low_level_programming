@@ -3,8 +3,8 @@
  * main - a program that prints _putcharr * and starts on a newline
  * return: 0
  */
-int main ()
+int main(void)
 {
 printf("_putchar\n");
-return 0;
+return (0);
 }
