@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "main.h" 
 /**
  * _putchar - writes the character c to stdout
@@ -7,7 +6,15 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int _putchar(char c)
+
+int _putchar();
 {
-	return (write(1, &c, 1));
+	char a[] = {'_','p','u','t','c','h','a','r'};
+	{
+	       char i = 0;
+       while(i < 8){
+	_putchar(a[i]);
+	i++;}
+       }
+	return 0;
 }
