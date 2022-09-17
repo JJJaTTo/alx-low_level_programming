@@ -8,7 +8,7 @@
  * determination today = success 2m0r0
  */
 
-void print_alphabets(void)
+void print_alphabet(void)
 {
 	int i = 0;
 
