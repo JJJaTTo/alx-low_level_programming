@@ -1,12 +1,14 @@
 #include "main.h"
 /**
- *  alphabets - prints a - z
+ *  main - prints a - z
+ *  prints a-z then a new line
  *
  *
- * Returns: 0
+ * Returns: 0 success
+ * determination today = success 2m0r0
  */
 
-void alphabets(void)
+void print_alphabets(void)
 {
 	int i = 0;
 
