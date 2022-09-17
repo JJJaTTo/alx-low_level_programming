@@ -6,15 +6,16 @@
 * Return: On success 1.
 * On error, -1 is returned, and errno is set appropriately.
 */
-int _putchar(char c)
+int main(void)
 {
-	char c[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
-	char i = 0;
+	int c[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	int i = 0;
 
 	while (i < 8)
 	{
 		_putchar(c[i]);
 		i++;
+		_putchar('\n');
 	}
 	return (0);
 }

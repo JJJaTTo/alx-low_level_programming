@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int _putchar(char c);
-void alphabets(void);
+int _putchar(char);
+void print_alphabets(void);
 
 #endif
