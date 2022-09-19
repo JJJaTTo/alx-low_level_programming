@@ -2,11 +2,19 @@
 #include <stdio.h>
 
 /**
- * main - check the code 
+ * main - check the code
+ *
+ * @p: pointer points to the memory address location of the varible n
  *
  * Return: Always 0.
  */
 void reset_to_98(int *n)
 {
-	*n = 98;
+	int p;
+	int *n;
+
+	p = 7;
+	n = &p;
+
+	return (0);
 }
